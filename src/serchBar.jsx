@@ -177,10 +177,6 @@ const imageDetails = [
 ];
 
 
-for (let index = 0; index < array.length; index++) {
-  
-}
-
 //serchBarの挙動
 
 const Bodies = () => {
