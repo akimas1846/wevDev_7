@@ -3,13 +3,18 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-
 export default function imageGallery() {
   var images = [
     "https://http.cat/100",
     "https://http.cat/101",
     "https://http.cat/102",
     "https://http.cat/103",
+    "https://http.cat/200",
+    "https://http.cat/201",
+    "https://http.cat/202",
+    "https://http.cat/203",
+    "https://http.cat/204",
+    "https://http.cat/207",
   ];
 
   return (
@@ -33,7 +38,7 @@ export default function imageGallery() {
           return (
             <div>
               <SwiperSlide>
-                <img key={`slides-${imgs}`} src={imgs} width="300px" />
+                <img key={`slides-${imgs}`} src={imgs} width="500px" />
               </SwiperSlide>
             </div>
           );
