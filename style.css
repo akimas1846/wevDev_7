@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  width: 1200px;
+  width: 1550px;
 }
 
 .swiper
@@ -144,7 +144,7 @@ main {
 section {
   width: 25%;
   position: relative;
-  height: 300px;
+  height: 370px;
 }
 
 section img {
