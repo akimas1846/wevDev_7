@@ -393,6 +393,11 @@ const imageDetails = [
     description: "Loop Detected",
   },
   {
+    url: "https://http.cat/509",
+    title: "Status 509",
+    description: "Bandwidth Limit exceeded",
+  },
+  {
     url: "https://http.cat/510",
     title: "Status 510",
     description: "Not Extended",
